@@ -8,7 +8,7 @@ import base64
 
 
 colors = {'background': '#F5CFF7','text':'#A939AD '}
-df = pd.read_csv('wheels.csv')
+df = pd.read_csv('data/wheels.csv')
 
 app = dash.Dash(__name__)
 server = app.server
