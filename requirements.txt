@@ -89,3 +89,4 @@ wcwidth==0.2.6
 Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1692105915497/work
 win-inet-pton @ file:///D:/bld/win_inet_pton_1666755058235/work
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1689374466814/work
+gunicorn
