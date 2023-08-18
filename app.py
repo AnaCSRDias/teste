@@ -10,7 +10,8 @@ import base64
 colors = {'background': '#F5CFF7','text':'#A939AD '}
 df = pd.read_csv('wheels.csv')
 
-app = dash.Dash()
+app = dash.Dash(__name__)
+server = app.server
 
 def encode_image(image_file):
     encoded = base64.b64encode(open(image_file,'rb').read())
